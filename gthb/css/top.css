@@ -1,0 +1,167 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+}
+
+canvas {
+	height: 100%;	
+	width: 100%;
+	position: absolute;
+	display: block;
+	background: linear-gradient(to right, #400715,#262626, #400715);
+	z-index: 1;
+}
+.content{
+	z-index: 2;
+height: 100%;
+position: relative;
+font-family: TAhoma;
+color:#f3f304;
+position: relative;
+}
+
+.header{
+	width: 100%;
+z-index: 3;
+height: 75px;
+background: rgba(128,128,128,0.2);
+position: fixed;
+}
+.podheader{
+position: relative;	
+display: block;
+}
+
+
+
+.allza{
+	position: relative;
+
+	text-align: center;
+}
+.zag{
+display: inline-block;
+
+ width: 400px;
+ height: 130px;		
+text-align: center;
+justify-content: center;
+align-items: center;
+ border: 2px solid;
+ margin-top: 14%;
+ padding-top: 	35px;
+
+}
+.hey{
+
+	text-align: center;
+	font-size: bold;
+	}
+.vkf{
+display:block;	
+position: relative;
+margin-left: 10%;
+margin-top: 10%;
+
+
+
+}
+.vk
+{
+	margin-right: 11%;
+	padding: 15px;
+	border-radius:45px;
+	border-top:5px dashed;
+	border-bottom:5px dashed;
+
+	width: 100px;
+	height: 100px;
+	stroke: orangered;
+	stroke-width: 10px;
+    stroke-dasharray:5%;
+    transition-duration: 0.2s;
+    
+	
+	
+}
+.vk:hover{
+transform:rotate(1deg) scaleY(1) scaleX(1.1);
+border:5px solid;
+transition: 0.35s;
+}
+
+.zag:hover{	
+animation-duration: 1s;
+transition-delay: 0.5s;
+border: 2px dashed;
+}
+a{
+	color:#f3f304;
+	}
+a:visited {
+	color::#f3f304;
+	}
+.sidebar{
+
+position: absolute;
+
+width: 100%;
+height: 600px;
+background: linear-gradient(to right, #400715,#262626, #400715);;
+}
+.logos{
+ 	position: absolute;
+	
+	margin-left: 5%;
+	justify-content: center;
+}
+.logo{
+	position: relative;
+	
+	z-index: 4;
+	width: 75px;
+	height: 75px;
+	
+}
+.full {
+    position: relative;
+	
+    overflow: hidden;
+
+    margin: 30px 0
+}
+.full  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+
+}
+.full  ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+
+    margin: 0 10px;
+    
+}
+.full ul li a {
+
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 40px;
+	color:#f3f304;
+    font-size: 20px;
+}
+i.fa{
+	position: absolute;
+	font-size: 30px;
+		left: -2px;
+		top: -3px;
+	color: rgba(128,128,128,1);
+}
